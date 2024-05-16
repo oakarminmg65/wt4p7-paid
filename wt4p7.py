@@ -195,15 +195,6 @@ def menu_apikey():
   print(f"\033[1;36;1m \033[1;32m [\033[1;91m❃\033[1;32m] COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
   
-      msg = str(os.geteuid())
-      time.sleep(0.1)
-      pass
-    else:
-      print(f" \033[1;32m [\033[1;91m❃\033[1;32m] \033[0;101mSORRY BRO YOUR KEY NOT APROVED\033[0m  ")
-      print(f" \033[1;32m [\033[1;91m❃\033[1;32m] \033[0;101mSEND WAVE OR KPAY  TO ADMIN AND GET APROVAL\033[0m"); time.sleep(2)
-      os.system(f'xdg-open https://m.me/hlahlayie2?text='+UMO+id)
-      time.sleep(2)
-      sys.exit()
   except:
     sys.exit()
     if name == 'main':
