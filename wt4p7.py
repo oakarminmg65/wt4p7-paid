@@ -172,9 +172,7 @@ def menu_apikey():
 
 
 	
-  os.system("clear")
-  os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests bs4')
-  os.system('clear')              
+                
   print ("""
 \033[1;32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 \033[38;5;45m┃ ██   ██  ██████      ███████ ██     ██ ███████      ┃
@@ -196,9 +194,7 @@ def menu_apikey():
   print(f"\033[1;91m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
   print(f"\033[1;36;1m \033[1;32m [\033[1;91m❃\033[1;32m] COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-  try:
-    
-    if id in httpCaht:
+  
       print("\033[1;92m               \033[1;32m [\033[1;91m❃\033[1;32m] \033[0;101mYOUR KEY APROVED\033[0m\033[1;32m [\033[1;91m❃\033[1;32m]  ");time.sleep(2)
       print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
       msg = str(os.geteuid())
