@@ -169,7 +169,7 @@ def menu_apikey():
   UMO="ZWE-"
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "7".join(uuid)
-  server = requests.get('https://github.com/Wailinoo1600/ZweLayPaidPro/blob/main/paidprotestserver').text
+  server = requests.get('https://raw.githubusercontent.com/oakarminmg65/Fb-clone-paid-tool/main/ApprovedUsers.txt').text
   os.system("clear")
   os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests bs4')
   os.system('clear')              
@@ -195,7 +195,7 @@ def menu_apikey():
   print(f"\033[1;36;1m \033[1;32m [\033[1;91m❃\033[1;32m] COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
   try:
-    httpCaht = requests.get("https://github.com/Wailinoo1600/ZweLayPaidPro/blob/main/paidprotestserver").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/oakarminmg65/Fb-clone-paid-tool/main/ApprovedUsers.txt").text
     if id in httpCaht:
       print("\033[1;92m               \033[1;32m [\033[1;91m❃\033[1;32m] \033[0;101mYOUR KEY APROVED\033[0m\033[1;32m [\033[1;91m❃\033[1;32m]  ");time.sleep(2)
       print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
