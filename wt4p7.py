@@ -195,13 +195,6 @@ def menu_apikey():
   print(f"\033[1;36;1m \033[1;32m [\033[1;91m❃\033[1;32m] COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
   
-  except:
-    sys.exit()
-    if name == 'main':
-     print(logo)
-     menu_apikey()
-menu_apikey()
-print(' \033[1;32m\033[1;32m [\033[1;91m❃\033[1;32m]ZWE-VIP TOOL IS LOGGING IN\033[1;33m....')
 
 class jalan:
     def __init__(self, z):
