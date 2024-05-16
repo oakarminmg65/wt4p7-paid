@@ -195,24 +195,6 @@ def menu_apikey():
   print(f"\033[1;36;1m \033[1;32m [\033[1;91m❃\033[1;32m] COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
   
-
-class jalan:
-    def __init__(self, z):
-        for e in z + "\n":
-            sys.stdout.write(e)
-            sys.stdout.flush()
-            time.sleep(0.001)
-sys.stdout.write('\x1b[1;35m\x1b]2; ZWE-VIP \x07')
-
-CorrectUsername = 'KO KO ZWE'
-key = 'true'
-while key == 'true':
-    username = input('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\033[1;32m  [\033[1;91m❃\033[1;32m]\033[1;96m•────➤\033[1;32mENTER KEY \033[1;91m: \x1b[1;91m')
-    if username == CorrectUsername:
-            print(f'\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\033[0;97m[•]\033[1;32m LOGGED IN ZWE_PAID TOOL SUCCESSFULLY') 
-            time.sleep(1)
-            os.system('clear')
-            key = 'false'
             
 if __name__ == "__main__":    
      for i in range(5):
